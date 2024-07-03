@@ -180,6 +180,68 @@ export default function App() {
         </View>
             </View>
           </View>
+
+          <View style={styles.secondpage}>
+            <View>
+              <Image
+              source={require('./assets1/Logo.png')}
+              style={styles.secondlogo}
+              /> 
+            </View>
+            <View>
+              <Image
+              source={require('./assets1/Search.png')}
+              style={styles.secondsearch}
+              /> 
+            </View>
+          </View>
+          <View style={styles.secondtwo}>
+            <Image
+              source={require('./assets1/checkout.jpg')}
+              style={styles.checkoutpic}
+              /> 
+          </View>
+
+          <View style={styles.lastpart}>
+            <View style={styles.lastpart1}>
+            <Image
+            source={require('./assets1/dress1.png')}
+            style={styles.dressec}
+            />
+            </View>
+            <View style={styles.lastpart2}>
+            <Text style={styles.part2}>Office Wear</Text>
+          <Text style={styles.part3}>Office wear for your Office</Text>
+          <Text style={styles.part4}>$120</Text>
+            </View>
+            <View style={styles.lastpart3}>
+            <Image
+            source={require('./assets1/remove.png')}
+            style={styles.dressec1}
+            />
+            </View>
+          </View>
+
+          <View style={styles.lastpart}>
+            <View style={styles.lastpart1}>
+            <Image
+            source={require('./assets1/dress4.png')}
+            style={styles.dressec}
+            />
+            </View>
+            <View style={styles.lastpart2}>
+            <Text style={styles.part2}>Lamerei</Text>
+          <Text style={styles.part3}>Recycle Boucle Knit cardigan pink</Text>
+          <Text style={styles.part4}>$120</Text>
+            </View>
+            <View style={styles.lastpart3}>
+            <Image
+            source={require('./assets1/remove.png')}
+            style={styles.dressec1}
+            />
+            </View>
+          </View>
+
       </ScrollView>
     </SafeAreaView>
   );
@@ -189,6 +251,45 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: 'white',
     marginLeft: 20,
+  },
+  dressec1:{
+      marginTop: 200,
+  },
+  lastpart:{
+    flexDirection: 'row',
+    marginTop: 150,
+    marginBottom: 50,
+  },
+  lastpart1:{
+
+  },
+  lastpart2:{
+    marginLeft: 25,
+  },
+  lastpart3:{
+
+  },
+  secondtwo:{
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 70,
+  },
+  checkoutpic:{
+    marginTop: 80,
+  },
+  secondpage:{
+    flexDirection:'row',
+    marginTop: 200,
+  },
+  secondlogo:{
+    height: 120,
+    width: 290,
+  },
+  secondsearch:{
+    marginLeft: 400,
+    marginTop: 30,
+    height: 40,
+    width: 40,
   },
   part2:{
     fontSize: 30,
